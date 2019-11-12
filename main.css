@@ -31,7 +31,12 @@
 }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
     padding-top: 10px;
     padding-bottom: 0;
+}
+
+h3 {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
