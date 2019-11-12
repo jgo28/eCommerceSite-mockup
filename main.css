@@ -3,3 +3,35 @@
 @media (max-width: 576px) {
 
 }
+
+.product-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-row-gap: 10%;
+}
+
+.product-card-container {
+    margin: 2px 16px;
+}
+
+.crop {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.crop-carousel {
+    width: 100vw;
+    height: 45vh;
+    object-fit: cover;  
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 10px;
+    padding-bottom: 0;
+}

@@ -1,5 +1,9 @@
+<!-- Joshua Go -->
+<!-- Web Development -->
+<!-- Assignment 4 -->
+<!-- 11/18/19 -->
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home-section">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,32 +11,30 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 
     <title>Home</title>
   </head>
   <body>
     <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Cool Kid Store</a>
+        <a class="navbar-brand" href="#home-section">Cool Kid Store</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="category.html">Electronics</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Electronics</a>
+                <a class="nav-link" href="category.html">Books</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Books</a>
+                <a class="nav-link" href="category.html">Clothes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Clothes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Furniture</a>
+                <a class="nav-link" href="category.html">Furniture</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -41,6 +43,87 @@
           </form>
         </div>
       </nav>
+
+      <!--https://getbootstrap.com/docs/4.0/components/carousel/-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="category.html">
+              <img class="d-block w-100 crop-carousel" src="images/clothing.jpg" alt="First slide">
+              <div class="carousel-caption d-sm-block">
+                <h5>...</h5>
+                <p>...</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="category.html">
+              <img class="d-block w-100 crop-carousel" src="images/books.jpg" alt="Second slide">
+              <div class="carousel-caption d-sm-block">
+                <h5>...</h5>
+                <p>...</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="category.html">
+              <img class="d-block w-100 crop-carousel" src="images/tv.jpg" alt="Third slide">
+              <div class="carousel-caption d-sm-block">
+                <h5>"Alexa, open ESPN."</h5>
+                <p>Watch ESPN on Fire TV</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      <h3 class="font-weight-light">Popular Deals</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <figure class="figure">
+              <img src="images/football.jpg" class="figure-img img-fluid rounded" alt="product">
+              <figcaption class="figure-caption">$19.99</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm">
+            <figure class="figure">
+              <img src="images/football.jpg" class="figure-img img-fluid rounded" alt="product">
+              <figcaption class="figure-caption">$19.99</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm">
+            <figure class="figure">
+              <img src="images/football.jpg" class="figure-img img-fluid rounded" alt="product">
+              <figcaption class="figure-caption">$19.99</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm">
+            <figure class="figure">
+              <img src="images/football.jpg" class="figure-img img-fluid rounded" alt="product">
+              <figcaption class="figure-caption">$19.99</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      
+     
+      <!-- <div class="product-cards">
+        <a href="product.html">
+            <div class="product-card-container">  
+                <img src="images/jeans.jpg" alt="product" class="img-fluid">
+            </div>
+        </a>
+      </div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
