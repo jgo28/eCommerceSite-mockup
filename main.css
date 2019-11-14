@@ -61,9 +61,24 @@ h3 {
 
 .recommended-products-section p {
     font-size: x-large;
-
 }
 
 .carousel {
     margin-bottom: 5vh;
+}
+
+.button {
+    background-color: rgb(70, 159, 219);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
